@@ -1,9 +1,9 @@
 package main
 
 import (
-	"auth-service/cmd"
-	"auth-service/config"
-	logger "auth-service/pkg"
+	"starter-service/cmd"
+	"starter-service/config"
+	logger "starter-service/pkg"
 )
 
 func main() {

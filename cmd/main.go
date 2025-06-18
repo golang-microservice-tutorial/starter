@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"time"
 
-	"auth-service/config"
-	logger "auth-service/pkg"
+	"starter-service/config"
+	logger "starter-service/pkg"
 
 	"github.com/go-chi/chi/v5"
 )

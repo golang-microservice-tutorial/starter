@@ -1,4 +1,4 @@
-module auth-service
+module starter-service
 
 go 1.24.3
 
