@@ -1,5 +1,5 @@
 MIGRATE_CMD=migrate
-DB_URL?=postgresql://root:root@localhost:5432/DB_NAME?sslmode=disable
+DB_URL?=postgresql://root:root@localhost:5432/xxx?sslmode=disable
 MIGRATION_DIR=db/migrations
 
 

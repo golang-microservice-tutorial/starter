@@ -8,7 +8,7 @@ sql:
         package: "db"
         out: "./db/sqlc"
         sql_package: "pgx/v5"
-        overides:
+        overrides:
             - db_type: "timestamptz"
               go_type: "*time.Time"
             - db_type: "uuid"

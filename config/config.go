@@ -27,7 +27,6 @@ type DBConfig struct {
 	Password        string
 	Name            string
 	MaxOpenConns    int
-	MaxIdleConns    int
 	ConnMaxLifetime time.Duration
 }
 
@@ -60,7 +59,6 @@ func LoadConfig() *AppConfig {
 			Password:        getEnv("DB_PASSWORD", ""),
 			Name:            getEnv("DB_NAME", "app"),
 			MaxOpenConns:    getEnvAsInt("DB_MAX_OPEN_CONNS", 25),
-			MaxIdleConns:    getEnvAsInt("DB_MAX_IDLE_CONNS", 10),
 			ConnMaxLifetime: getEnvAsDuration("DB_CONN_MAX_LIFETIME", 300*time.Second),
 		},
 
